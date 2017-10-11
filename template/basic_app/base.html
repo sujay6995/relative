@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>base</title>
+</head>
+<body>
+<a href="{% url 'basic_app:index' %}">index</a>
+<a href="{% url 'basic_app:other' %}">other</a>
+<a href="{% url 'basic_app:relative' %}">relative</a>
+<a href="{% url 'admin:index' %}">admin</a>
+{% block body_block %}
+{% endblock %}
+</body>
+</html>
